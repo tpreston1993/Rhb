@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils"
 
 const homeNavLinks = [
   { href: "/#overview", label: "Overview" },
+  { href: "/#kulture-awards", label: "Kulture Awards" },
   { href: "/#tickets", label: "Tickets" },
   { href: "/#competitions", label: "Competitions" },
   { href: "/#competition-schedule", label: "Competition Schedule" },
