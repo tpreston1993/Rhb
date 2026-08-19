@@ -3,6 +3,7 @@ import { Hero } from "@/components/sections/hero"
 import { Overview } from "@/components/sections/overview"
 import { Tickets } from "@/components/sections/tickets"
 import { Competitions } from "@/components/sections/competitions"
+import { KultureAwards } from "@/components/sections/kulture-awards"
 import { Education } from "@/components/sections/education"
 import { Vendors } from "@/components/sections/vendors"
 import { FloorPlan } from "@/components/sections/floor-plan"
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Overview />
       <Tickets />
       <Competitions />
+      <KultureAwards />
       <Education />
       <Sponsors />
       <Vendors />
