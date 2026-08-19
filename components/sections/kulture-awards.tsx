@@ -24,7 +24,7 @@ export function KultureAwards() {
           />
 
           {/* Tagline */}
-          <h2 className="mt-8 font-display text-3xl font-bold uppercase tracking-tight text-[#e6b64c] text-balance md:text-4xl lg:text-5xl">
+          <h2 className="mt-8 font-display text-3xl font-bold uppercase tracking-tight text-ribe-accent text-balance md:text-4xl lg:text-5xl">
             Where Culture, Skill, and Community Collide
           </h2>
 
@@ -40,7 +40,7 @@ export function KultureAwards() {
             href={LEARN_MORE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-10 inline-flex items-center justify-center gap-2 rounded-full bg-[#e6b64c] px-10 py-4 text-lg font-bold text-black transition-all hover:scale-105 hover:bg-[#f0c869]"
+            className="mt-10 inline-flex items-center justify-center gap-2 rounded-full bg-ribe-accent px-10 py-4 text-lg font-bold text-ribe-primary transition-all hover:scale-105 hover:shadow-lg"
           >
             Learn More
             <ArrowUpRight className="h-5 w-5" />
