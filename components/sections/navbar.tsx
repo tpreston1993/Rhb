@@ -102,6 +102,14 @@ export function Navbar({ variant = "transparent" }: NavbarProps) {
               Become a Vendor
             </Link>
             <Link
+              href="https://twinriver.book.pegsbe.com/promo?offerCode=RIBE&hotel=TWCRI"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-white transition-colors hover:text-ribe-accent"
+            >
+              Book Your Hotel
+            </Link>
+            <Link
               href="/#tickets"
               className="rounded-full bg-ribe-accent px-6 py-2.5 text-sm font-bold text-ribe-primary transition-all hover:scale-105 hover:shadow-lg"
             >
@@ -161,6 +169,15 @@ export function Navbar({ variant = "transparent" }: NavbarProps) {
               )}
             >
               Become a Vendor
+            </Link>
+            <Link
+              href="https://twinriver.book.pegsbe.com/promo?offerCode=RIBE&hotel=TWCRI"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="rounded-lg px-4 py-3 text-white transition-colors hover:bg-white/10"
+            >
+              Book Your Hotel
             </Link>
             <div className="mt-4">
               <Link

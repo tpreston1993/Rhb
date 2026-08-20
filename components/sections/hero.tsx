@@ -162,6 +162,14 @@ export function Hero() {
           >
             Enter Competition
           </Link>
+          <Link
+            href="https://twinriver.book.pegsbe.com/promo?offerCode=RIBE&hotel=TWCRI"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-w-[200px] items-center justify-center rounded-full border-2 border-white bg-white/10 px-8 py-4 text-lg font-bold text-white backdrop-blur-sm transition-all hover:bg-white hover:text-ribe-primary"
+          >
+            Book Your Hotel
+          </Link>
         </div>
       </div>
 
